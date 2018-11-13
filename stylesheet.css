@@ -1,0 +1,234 @@
+ h1{
+    text-shadow: 3px 3px 3px black;
+    text-align:center;
+    font-size:50px;
+    font-family: 'Shojumaru', cursive;
+    color:red;
+    
+}
+h2{
+    font-family: 'Shojumaru', cursive;
+    text-decoration-style: wavy;
+    text-shadow:2px 2px 2px lightblue;
+    
+}
+
+.filter{
+    width: 100%;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    background-color: black;
+    opacity: 0.15;
+    position: fixed;
+    z-index: -1;
+}
+
+
+body{
+    background-image: url(./images/background3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.Stats_Container{
+    font-family: 'Shojumaru', cursive;
+   text-decoration-style: wavy;
+   text-shadow:3px 3px 3px lightblue;
+   color:black;
+   font-size: 30px;
+
+}
+
+
+.set_timer{
+    font-size:25px;
+    text-align:center;
+    text-shadow: px 2px 3px lightgoldenrodyellow;
+
+}
+
+game-area{
+    margin: 0, auto;
+}
+
+.card{
+    position:relative;
+    width:200px;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 6px black;
+}
+
+.card{
+    width:125px;
+    height: 175px;
+}
+
+.card .back{
+
+    height:100%;
+    width:100%;
+  
+}
+.card .back img{
+    width:100%;
+    height:100%;
+}
+
+.card.active{
+    filter:drop-shadow(5px 5px 10px black);
+    transition:all 0.25s;
+    font-size:25px;  
+
+}
+
+.card .front{
+    width:100%;
+    height:100%;
+      display:none;
+}
+
+.card .front img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  
+}  
+
+.all_cards{
+    text-align: center;
+    opacity: .5;
+    transition: opacity 0.5s;
+    width: 80%;
+    margin: 0 auto;
+    max-width: 915px;
+
+
+}
+
+.all_cards.active{
+    opacity:1;
+
+}
+
+
+.about_Game{
+    background-color: transparent;
+    margin: 0 auto;
+    display:inline-block;
+    color: white;
+    font-size:18px;
+    font-family: 'Gaegu', cursive;
+     text-shadow: 4px 4px 5px black;
+    
+}
+
+   
+.about_Game a{
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+
+
+p{
+    text-align: center;
+    background-color: transparent;
+    font-family: 'Gaegu', cursive;
+    margin: 0 auto;
+    width: 40%;
+    max-width: 500px;
+}
+
+
+#about_me{
+    text-align:center;
+    font-size: 35;
+    font-family:'Gaegu', cursive;
+    
+    
+   
+    }
+
+.profile_pic{
+
+    width:150px;
+    height: 150px;
+     border-radius: 20px;
+    margin: 10px;
+    border: 2px solid white;
+    box-shadow: 2px 2px 6px black;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+    
+}
+#h3_skills_required{
+    text-align:center;
+    text-decoration: underline;  
+
+}
+
+ol{
+    display: table;
+    color: black;
+    background-color: transparent;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+
+.cardMatched {
+    pointer-events: none;
+    border: 2px solid gold;
+    transform: scale(1.15);
+    box-shadow: 2px 2px 3px black;
+}
+
+.game_buttons {
+    text-align:center;
+} 
+.game_buttons .game_button{
+    background-color: transparent;
+    margin: 0 auto;
+    color: lightgoldenrodyellow;
+    font-size:18px;
+    font-family: 'Gaegu', cursive;
+     text-shadow: 4px 4px 5px black;
+     text-align:center;
+
+}
+
+#game-area.lock_cards, .card.lock_card{
+    pointer-events:none;
+}
+
+
+#h2_about_me{
+    font-family: 'Shojumaru', cursive;
+    text-decoration-style: wavy;
+    text-shadow: 2px 2px 2px lightblue;
+    text-align: center;
+}
+
+.back_to_game_button{
+    background-color: transparent;
+    margin: 0 auto;
+    color: lightgoldenrodyellow;
+    font-size: 18px;
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    display:block;
+
+
+ 
+}
